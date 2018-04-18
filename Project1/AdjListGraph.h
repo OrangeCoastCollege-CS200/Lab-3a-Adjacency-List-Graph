@@ -22,8 +22,23 @@ public:
 	void printAllSuccessors() const;
 	
 	// The Big 5
+	AdjListGraph(const AdjListGraph&);
+		//copy constructor
+
+	AdjListGraph(AdjListGraph&&);
+		//move constructor
+
+	AdjListGraph& operator=(const AdjListGraph&);
+		//overloaded copy assignment operator
+
+	AdjListGraph& operator=(AdjListGraph&&);
+		//overloaded move assignment operator
+
+	~AdjListGraph();
+		//destructor
 
 	// Function destroyGraph
+	void destroyGraph();
 
 
 protected:

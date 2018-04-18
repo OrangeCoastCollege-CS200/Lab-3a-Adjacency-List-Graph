@@ -1,5 +1,10 @@
 /*
-	(name header)
+	Badajoz, Severiano
+
+	CS A200
+	April 18, 2018
+
+	Lab 3a
 */
 
 #include "AdjListGraph.h"
